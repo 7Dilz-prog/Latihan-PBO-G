@@ -4,10 +4,9 @@ public class Main {
         Pasien pasien1 = new Pasien("Budi");
         Dokter dokter2 = new Dokter("Dr. Amun");
         Pasien pasien2 = new Pasien("Nwenden");
-        Pasien sikuda = new Pasien("KudaPoni");
 
         dokter1.periksa(pasien1);
         dokter2.periksa(pasien2);
-        dokter1.periksa(sikuda);
+        dokter1.periksa(pasien2);
     }
 }
